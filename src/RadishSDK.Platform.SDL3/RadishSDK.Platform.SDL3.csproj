@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <RootNamespace>Radish.Platform.SDL3</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>RadishSDK SDL3 Platform</Title>
+        <Description>SDL3 backend for Radish SDK. This is currently the only backend.</Description>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\RadishSDK.Core\RadishSDK.Core.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\..\lib\SDL3-CS\SDL3\SDL3.Core.cs">
+        <Link>SDL3.Core.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>

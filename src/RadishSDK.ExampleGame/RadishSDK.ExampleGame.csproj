@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <Title>Radish SDK: Example Game</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RadishSDK.Core\RadishSDK.Core.csproj" />
+    <ProjectReference Include="..\RadishSDK.Platform.SDL3\RadishSDK.Platform.SDL3.csproj" />
+  </ItemGroup>
+
+</Project>

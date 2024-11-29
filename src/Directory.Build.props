@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup>
+        <Authors>Audrey Castillo</Authors>
+        <Company>Audrey Castillo</Company>
+        <Product>Radish SDK</Product>
+        <Copyright>Copyright © Audrey Castillo</Copyright>
+        <RootNamespace>Radish</RootNamespace>
+        <BaseOutputPath>$(SolutionDir)bin</BaseOutputPath>
+        <BaseIntermediateOutputPath>..\..\build\dotnet\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+        <IntermediateOutputPath>$(BaseIntermediateOutputPath)\$(Configuration)</IntermediateOutputPath>
+    </PropertyGroup>
+</Project>
